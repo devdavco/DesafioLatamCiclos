@@ -20,3 +20,17 @@ contarHasta(12)
 
 //Crea una función llamada desdeHasta que reciba 2 parámetros, desde y hasta. Muestra en consola todos los números entre medio.
 
+/* Escribe tu código aquí */
+
+function desdeHasta(desde,hasta){
+
+    while(desde <= hasta){
+        console.log(desde)
+        desde ++;
+    }
+}
+
+
+/* Fin */
+
+desdeHasta(4, 9);
